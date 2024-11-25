@@ -1,6 +1,6 @@
 name: Gtest
 run-name: Testing
-on: [commit]
+on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
-      - run: npm i @nestjs/cli
+      - run: npm i -g @nestjs/cli
       - run: nest -h
 #      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
 #      - run: nest --version
